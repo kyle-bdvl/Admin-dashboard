@@ -1,13 +1,11 @@
 /* comment */
 
 body{
-  margin:0px;
+  margin:0px ;
   padding:0px;
   font-family: 'Roboto';
   display:flex;
   flex-direction: row;
-  height: 100%;
-  width: 100%;
 }
 
 *:focus{
@@ -19,6 +17,8 @@ body{
   padding-left:20px;
   padding-top:15px;
   color:white;
+  min-width: 250px;
+  max-width: 250px;
 }
 
 .title{
@@ -77,6 +77,7 @@ body{
 .content{
   display:flex;
   flex-direction: column;
+  width:1000%;
 }
 
 .header{
@@ -188,7 +189,8 @@ body{
   background-color: rgb(226, 232, 240);
   display:flex;
   flex-direction: row;
-  
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Projects{
@@ -237,7 +239,7 @@ body{
 .part2{
   display:flex;
   flex-direction: column;
-  padding-left:3rem;
+  padding-left:7rem;
 }
 
 .announcements{
@@ -245,8 +247,8 @@ body{
 }
 
 .alerts{
-  height:28rem;
-  width:25rem;
+  height:26rem;
+  width:23rem;
   background-color: white;
   border-radius:10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bottom shadow */
@@ -264,6 +266,33 @@ body{
 
 #Title{
   font-weight: 700;
+}
+
+.people{
+  display: flex;
+  flex-direction: column;
+  height:15rem;
+  width:23rem;
+  background-color: white;
+  border-radius:10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bottom shadow */
+  justify-content: center;
+  align-items: center;
+}
+
+.people > div{
+  display:flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.people > div> p{
+  font-weight: 400;
+}
+
+#pics {
+  width: 3rem;
+  border-radius: 250%;
 }
 
 
