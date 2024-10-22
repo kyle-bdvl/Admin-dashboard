@@ -278,12 +278,13 @@ body{
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bottom shadow */
   justify-content: center;
   align-items: center;
+  margin-top:10px;
 }
 
 .people > div{
   display:flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .people > div> p{
@@ -291,8 +292,8 @@ body{
 }
 
 #pics {
-  width: 3rem;
-  border-radius: 250%;
+  width: 4rem;
+  border-radius: 80%;
 }
 
 
